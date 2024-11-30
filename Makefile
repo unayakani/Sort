@@ -1,6 +1,6 @@
 CC = cc
 SRC = main.c
-FLAGS = -lraylib -lmath
+FLAGS = -lraylib
 
 all:
 	$(CC) $(SRC) $(FLAGS)
